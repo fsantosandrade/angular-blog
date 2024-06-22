@@ -1,0 +1,20 @@
+.container__big-card {
+    border: solid white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+    padding: 10px;
+    margin: 0 25px;
+}
+
+.container__big-card > h1 {
+    margin: 15px 0;
+}
+
+.container__big-card > p {
+    color: grey;
+    text-align: justify;
+}
