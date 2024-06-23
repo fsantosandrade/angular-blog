@@ -23,3 +23,7 @@
     font-weight: 300;
     align-self: flex-start;
 }
+
+.container__small-card > .small-card__content > a > h1:hover {
+    text-decoration: underline;
+}

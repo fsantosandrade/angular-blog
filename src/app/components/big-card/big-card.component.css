@@ -17,7 +17,16 @@
     margin: 15px 0;
 }
 
+.container__big-card > a > h1:hover {
+    text-decoration: underline;
+}
+
 .container__big-card > a > p {
     color: grey;
     text-align: justify;
+}
+
+.container__big-card > a> img {
+    width: 100%;
+    min-width: 450px;
 }
