@@ -13,4 +13,5 @@
     background-color: var(--dark);
     color: var(--light);
     font-family: "Segoe UI";
+    list-style: none;
 }
