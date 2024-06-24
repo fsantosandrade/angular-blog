@@ -1,6 +1,6 @@
 <div class="container__small-card">
     <div class="small-card__content">
-        <a href="#">
+        <a [routerLink]="['content', id]">
             <img src="{{ photoCover }}" alt="Imagem do artigo">
             <h1>{{ cardTitle }}</h1>
         </a>

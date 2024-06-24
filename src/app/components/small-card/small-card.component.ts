@@ -11,6 +11,8 @@ export class SmallCardComponent implements OnInit {
   photoCover:string = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&s'
   @Input()
   cardTitle:string = 'Loading...'
+  @Input()
+  id:string = '0'
 
   constructor() { }
 
