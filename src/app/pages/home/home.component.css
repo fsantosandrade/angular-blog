@@ -3,3 +3,13 @@
     justify-content: center;
     width: 100%;
 }
+
+.articles-rest {
+    display: flex;
+    justify-content: center;
+}
+
+.articles-rest > .articles-rest__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

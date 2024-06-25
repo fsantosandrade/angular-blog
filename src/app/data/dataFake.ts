@@ -28,5 +28,11 @@ export const dataFake = [
         'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWHlTUrNGibgwzuVflvlqXQnqHCL9SVMM05w&s',
         'title': "Iron Man VR: Minigames e segredos do game",
         'description': 'bla blabla5'
+    },
+    {
+        'id':6,
+        'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStflXRXS0vuHkAq449xNqKhHcGIfn6i8-scw&s',
+        'title': "Trailer Dublado Anunciado",
+        'description': 'Foi anunciado o trailer dublado de Wolverine e DeadPool'
     }
 ]
