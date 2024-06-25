@@ -1,6 +1,7 @@
 @media screen and (max-width: 1200px) {
     .articles {
         flex-flow: column;
+        margin-bottom: 20px;
     }
 
     .articles > .articles__others > ul {
@@ -14,6 +15,10 @@
 }
 
 @media screen and (max-width: 910px) {
+    .articles {
+        margin-bottom: 20px;
+    }
+
     .articles-rest > .articles-rest__content {
         grid-template-columns: 1fr 1fr;
     }
@@ -25,6 +30,10 @@
 }
 
 @media screen and (max-width: 610px) {
+    .articles {
+        margin-bottom: 20px;
+    }
+
     .articles-rest > .articles-rest__content {
         grid-template-columns: 1fr;
     }

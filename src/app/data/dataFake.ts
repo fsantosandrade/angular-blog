@@ -32,8 +32,8 @@ export const dataFake = [
     {
         'id':6,
         'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStflXRXS0vuHkAq449xNqKhHcGIfn6i8-scw&s',
-        'title': "Trailer Dublado Anunciado",
-        'description': 'Foi anunciado o trailer dublado de Wolverine e DeadPool'
+        'title': "NOVO TRAILER DUBLADO ACABA DE SER ANUNCIADO",
+        'description': 'Foi anunciado o trailer dublado de Wolverine e DeadPool, venha conferir!'
     },
     {
         'id':7,

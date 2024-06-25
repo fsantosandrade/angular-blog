@@ -41,10 +41,8 @@
 
 @media screen and (max-width: 610px) {
     .container__base-card {
-        height: 285px;
-    }
-    
-    .container__base-card {
+        width: 420px;
+        height: 350px;
         margin: 5px 0px 5px 0px;
     }
 
