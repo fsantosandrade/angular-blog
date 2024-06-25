@@ -34,5 +34,23 @@ export const dataFake = [
         'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStflXRXS0vuHkAq449xNqKhHcGIfn6i8-scw&s',
         'title': "Trailer Dublado Anunciado",
         'description': 'Foi anunciado o trailer dublado de Wolverine e DeadPool'
+    },
+    {
+        'id':7,
+        'photo': 'https://www.adrenaline.com.br/wp-content/uploads/2024/03/marvel-1943-rise-of-hydra.jpg',
+        'title': "Novo jogo: 'Marvel 1943 Rise of Hydra' recebe trailer",
+        'description': 'Jogo novo da Marvel recebe trailer novo que repercutiu entre fãs'
+    },
+    {
+        'id':8,
+        'photo': 'https://ofolhetimcultural.com.br/wp-content/uploads/2024/05/Universo-Cinematografico-da-Marvel.jpg',
+        'title': "Fique por dentro das novas séries da Marvel anunciadas!",
+        'description': 'Venha conferir datas e comentários sobre os próximos lançamentos bombásticos da Marvel'
+    },
+    {
+        'id':9,
+        'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVxxeJK_4W0mybybLc59trDZqE6QmdNvaScA&s',
+        'title': "Tudo sobre a série da Marvel: 'MS Marvel'",
+        'description': 'Fique por dentro de tudo sobre a mais nova série da Marvel'
     }
 ]
