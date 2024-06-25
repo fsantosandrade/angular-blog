@@ -1,9 +1,9 @@
 export const dataFake = [
     {
         'id':1,
-        'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS88XZj2dV2U97WxM7D9l2nRBSSa2g_B-pUJg&s',
-        'title': 'NOVO IRON MAN ANUNCIADO',
-        'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consectetur cumque soluta reiciendis ipsa itaque ut saepe deleniti eveniet, sit quibusdam beatae rerum blanditiis velit impedit vel exercitationem voluptas ratione.'
+        'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUeo26CwCK4SHI5Tp7Eoj3jG0vfxCKs05sQ&s',
+        'title': '12 MELHORES ATORES DA MARVEL!',
+        'description': 'Ranqueamos os 12 melhores atores que ja participaram do unverso cinematográfico da Marvel, venha conferir as estrelas por trás de cada herói!'
     },
     {
         'id':2,
@@ -52,5 +52,23 @@ export const dataFake = [
         'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVxxeJK_4W0mybybLc59trDZqE6QmdNvaScA&s',
         'title': "Tudo sobre a série da Marvel: 'MS Marvel'",
         'description': 'Fique por dentro de tudo sobre a mais nova série da Marvel'
+    },
+    {
+        'id':10,
+        'photo': 'https://veja.abril.com.br/wp-content/uploads/2023/11/1-ABRE-THE-MARVELS-123.jpg.jpg?crop=1&resize=1212,909',
+        'title': "A CRISE DOS SUPER-HERÓIS DA MARVEL",
+        'description': 'As razões por trás da crise dos super-heróis que abala a Marvel'
+    },
+    {
+        'id':11,
+        'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn9pLqvm67iCo_-NEmAQraDlOMUVWmJTcZhA&s',
+        'title': "Melhor ordem dos filmes da Marvel",
+        'description': 'A melhor ordem a se seguir quando for assistir os filmes da Marvel'
+    },
+    {
+        'id':12,
+        'photo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2T-t63JMQxcrTVImpQL4JPhTVAYC7I-BMQ&s',
+        'title': "Mavel Ultimate Alliance 3",
+        'description': "O mais novo jogo da Marvel: 'Mavel Ultimate Alliance 3: The Black Order' finalmente no ar!"
     }
 ]

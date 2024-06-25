@@ -28,9 +28,10 @@
     font-size: 13.9px;
 }
 
-.container__base-card > a> img {
+.container__base-card > a > img {
     width: 100%;
     min-width: 250px;
+    max-height: 150px;
 }
 
 @media screen and (max-width: 1200px) {
