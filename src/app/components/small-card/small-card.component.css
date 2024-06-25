@@ -30,3 +30,9 @@
 .container__small-card > .small-card__content > a > h1:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 580px) {
+    .container__small-card {
+        width: 350px;
+    }
+}

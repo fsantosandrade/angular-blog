@@ -19,8 +19,23 @@
 }
 
 .content__description > p {
+    max-width: 850px;
     margin-top: 25px;
     padding: 15px;
     text-align: justify;
     text-indent: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .content__title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .content__cover > img {
+        width: 25em;
+        min-width: auto;
+        height: auto;
+    }
 }

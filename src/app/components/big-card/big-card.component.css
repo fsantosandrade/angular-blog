@@ -26,7 +26,24 @@
     text-align: justify;
 }
 
-.container__big-card > a> img {
+.container__big-card > a > img {
     width: 100%;
     min-width: 450px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container__big-card {
+        height: 520px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container__big-card {
+        width: 400px;
+    }
+
+    .container__big-card > a > img {
+        width: 100%;
+        min-width: auto;
+    }
 }
