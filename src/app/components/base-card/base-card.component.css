@@ -42,12 +42,41 @@
 
 @media screen and (max-width: 610px) {
     .container__base-card {
-        width: 420px;
-        height: 350px;
-        margin: 5px 0px 5px 0px;
+        width: 250px;
+        height: 300px;
+        margin: 5px 2px 5px 2px;
+        padding: 0;
     }
 
     .container__base-card > a > p {
         display: none;
+    }
+
+    .container__base-card > a > img {
+        min-width: 100%;
+        max-width: 100%;
+        max-height: auto;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .container__base-card {
+        width: 100%;
+        height: 300px;
+        margin: 5px 2px 5px 2px;
+        padding: 0;
+    }
+
+    .container__base-card > a > h1 {
+        margin: 15px 0;
+        font-size: 22px;
+        text-align: center;
+        width: 60%;
+    }
+
+    .container__base-card > a > img {
+        min-width: 256px;
+        max-width: 256px;
+        max-height: auto;
     }
 }
