@@ -1,3 +1,7 @@
+.light {
+    color: black;
+}
+
 .container__base-card {
     width: 250px;
     height: 350px;
@@ -11,6 +15,7 @@
     justify-content: flex-start;
     align-items: center;
     text-decoration: none;
+    color: white;
 }
 
 .container__base-card > a > h1 {

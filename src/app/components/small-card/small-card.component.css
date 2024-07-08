@@ -1,3 +1,7 @@
+.light {
+    color: black;
+}
+
 .container__small-card {
     width: 450px;
     height: 120px;
@@ -13,6 +17,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+    color: white;
 }
 
 .container__small-card > .small-card__content > a > img {
@@ -25,6 +30,10 @@
 .container__small-card > .small-card__content > a > h1 {
     font-size: 20px;
     font-weight: 300;
+}
+
+.container__small-card > .small-card__content > a > h1.light {
+    font-weight: 400;
 }
 
 .container__small-card > .small-card__content > a > h1:hover {

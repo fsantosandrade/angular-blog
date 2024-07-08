@@ -2,7 +2,7 @@
     <div class="small-card__content">
         <a [routerLink]="['content', id]">
             <img src="{{ photoCover }}" alt="Imagem do artigo">
-            <h1>{{ cardTitle }}</h1>
+            <h1 [ngClass]="tema">{{ cardTitle }}</h1>
         </a>
     </div>
     <hr>

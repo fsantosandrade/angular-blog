@@ -7,19 +7,22 @@
         </a>
         <nav class="menu-bar__options">
             <ul>
-                <a href="#">
+                <a href="#" [ngClass]="tema">
                     <li>Learn</li>
                 </a>
-                <a [routerLink]="['']">
+                <a [routerLink]="['']" [ngClass]="tema">
                     <li>Blog</li>
                 </a>
-                <a href="#">
+                <a href="#" [ngClass]="tema">
                     <li>Bookmarks</li>
                 </a>
             </ul>
         </nav>
     </div>
     <div class="menu-bar__contats">
+        <button type="button" (click)="updateThema()" [ngClass]="tema">
+            <img [src]="imgButton" alt="">
+        </button>
         <ul>
             <li>
                 <a href="https://x.com/FelipeS727" target="_blank">

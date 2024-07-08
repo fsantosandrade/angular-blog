@@ -10,8 +10,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--dark);
-    color: var(--light);
     font-family: "Segoe UI";
     list-style: none;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+body.light {
+    background-color: var(--light);
+    color: var(--dark);
 }

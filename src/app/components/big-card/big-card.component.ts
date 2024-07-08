@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ThemeService } from 'src/app/services/theme.service';
 
 @Component({
   selector: 'app-big-card',
@@ -6,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent implements OnInit {
+  tema:string = ''
 
   @Input()
   photoCover:string = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&s'
@@ -16,9 +18,12 @@ export class BigCardComponent implements OnInit {
   @Input()
   id:string = '0'
 
-  constructor() { }
+  constructor(private themeService: ThemeService) { }
 
   ngOnInit(): void {
+    this.themeService.tema$.subscribe(theme => {
+      this.tema = theme
+    })
   }
 
 }
