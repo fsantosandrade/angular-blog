@@ -25,7 +25,7 @@ export const dataFake = [
     },
     {
         'id':5,
-        'photo': 'https://scontent.oculuscdn.com/v/t64.5771-25/57569436_1310664746374086_6542187542765587959_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=J_GMLwlFWTYQ7kNvgFsl1qv&_nc_ht=scontent.oculuscdn.com&oh=00_AYBydef3NKIPWDaHoUp6eOAgAC_0rzSHal5_X7r84EBjcA&oe=667F7980',
+        'photo': 'https://cdn.mos.cms.futurecdn.net/SMipGAdfY56bo7s6HVJhaL.png',
         'title': "Iron Man VR: Minigames e segredos do game",
         'description': 'Easter eggs escondidos dentro do mais novo game da Marvel'
     },

@@ -13,6 +13,10 @@
     margin-top: 5px;
 }
 
+.content__cover > img.light {
+    border: 5px solid black;
+}
+
 .content__title > h1 {
     margin-top: 10px;
     font-size: 45px;

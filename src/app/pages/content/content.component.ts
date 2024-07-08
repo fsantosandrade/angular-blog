@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { dataFake } from '../../data/dataFake'
+import { ThemeService } from 'src/app/services/theme.service';
 
 @Component({
   selector: 'app-content',
@@ -8,6 +9,7 @@ import { dataFake } from '../../data/dataFake'
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
+  tema:string = ''
 
   photoCover:string = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&s'
   contentTitle:string = 'Loading...'
@@ -15,7 +17,7 @@ export class ContentComponent implements OnInit {
   private id:string | null = '0'
 
   constructor(
-    private route: ActivatedRoute
+    private route: ActivatedRoute, private themeService: ThemeService
   ) {  }
 
   ngOnInit(): void {
@@ -24,6 +26,10 @@ export class ContentComponent implements OnInit {
     )
 
     this.setValuesToComponent(this.id)
+
+    this.themeService.tema$.subscribe(theme => {
+      this.tema = theme
+    })
   }
 
   setValuesToComponent(id:string | null) {
